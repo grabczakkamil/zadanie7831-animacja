@@ -32,6 +32,7 @@ body {
     width: 400px;
     height: 100px;
     background-color: black;
+    animation-delay: 1s; 
     z-index: 3;
 }
 
@@ -44,7 +45,7 @@ body {
     width: 400px;
     height: 100px;
     background-color: black;
-    animation-delay: 1s;    
+    animation-delay: 2s;    
     z-index: 2;
 }
 #eight {
@@ -56,15 +57,13 @@ body {
     width: 400px;
     height: 100px;
     background-color: black;
-    animation-delay: 2s;  
+    animation-delay: 3s;  
     z-index: 1;
 }
 
 
 @keyframes scale {
-    0% { transform: scale(0);
-    }
-    10% {transform: scale(1);
+    0% { transform: scale(1);
     }
     100% {
         transform: scale(0);
