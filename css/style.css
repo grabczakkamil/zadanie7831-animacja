@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+}
+/*
+.liczba {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+    animation: scale 3s infinite linear;
+    
+    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+*/
+#glowny {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+}
+
+#ten {
+    color: white;
+    animation: scale 3s infinite;
+    font-size: 50px;
+    position: absolute;
+}
+
+#nine {
+    color: white;
+    animation: scale 3s infinite;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    animation-delay: 2s;
+    
+}
+
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+/*
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}*/
